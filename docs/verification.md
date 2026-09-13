@@ -48,9 +48,10 @@ Playwrightは入力欄への実ファイル選択とブラウザが生成した�
 
 `docs/screenshots/01-pdf-upload.png` 〜 `05-export.png` は本番URLでのみ取得します。テストの保存モードはlocalhostへの保存を拒否します。READMEの各Markdown画像はリポジトリ内の相対パスを使用します。
 
-GitHubへのPush後、RepositoryのREADMEをWeb UIで開き、全5枚が読み込み済み（naturalWidth > 0）であることと、スクロールして画面に表示されることを確認します。
+GitHubへのPush後、未認証のChromiumでRepositoryのREADMEをWeb UIで開き、全5枚が読み込み済み（naturalWidth > 0）であることと、各画像へスクロールして表示されることを確認しました。全5枚がPASSです。結果は [実ブラウザの検証記録](github-readme-verification.json)、再実行用コードは [verify-readme.mjs](../scripts/verify-readme.mjs) に収録しています。
 
 ## 範囲
 
 これらは同梱フィクスチャと指定した操作に対する結果です。すべてのPDF帳票、すべてのブラウザ、OCRの検証・保証ではありません。OCRは提供していません。複雑な表は必ず原本と比較してください。
+
 

@@ -1,0 +1,57 @@
+{
+  "status": "PASS",
+  "verifiedAt": "2026-09-13T16:32:14.825Z",
+  "repositoryUrl": "https://github.com/shunsoco-stack/pdf-table-extractor",
+  "method": "Fresh unauthenticated Chromium context; actual GitHub Web UI README; each image scrolled into view and checked for completed decoding, non-zero intrinsic size and visible layout.",
+  "browser": "Chromium 151.0.7922.34",
+  "httpStatus": 200,
+  "expectedCount": 5,
+  "verifiedCount": 5,
+  "images": [
+    {
+      "file": "01-pdf-upload.png",
+      "alt": "PDF Upload：アクセス直後に使えるドラッグ＆ドロップエリアと3種類のデモ",
+      "src": "https://github.com/shunsoco-stack/pdf-table-extractor/raw/main/docs/screenshots/01-pdf-upload.png",
+      "naturalWidth": 1440,
+      "naturalHeight": 1080,
+      "renderedWidth": 838,
+      "renderedHeight": 629
+    },
+    {
+      "file": "02-pdf-table-preview.png",
+      "alt": "PDFと抽出テーブルの左右比較。原本に検出範囲、空欄セルに要確認表示",
+      "src": "https://github.com/shunsoco-stack/pdf-table-extractor/raw/main/docs/screenshots/02-pdf-table-preview.png",
+      "naturalWidth": 1440,
+      "naturalHeight": 1272,
+      "renderedWidth": 838,
+      "renderedHeight": 740
+    },
+    {
+      "file": "03-table-edit.png",
+      "alt": "抽出した日本語のセルを直接編集。見出し指定、行列削除、Undoに対応",
+      "src": "https://github.com/shunsoco-stack/pdf-table-extractor/raw/main/docs/screenshots/03-table-edit.png",
+      "naturalWidth": 1440,
+      "naturalHeight": 1214,
+      "renderedWidth": 838,
+      "renderedHeight": 706
+    },
+    {
+      "file": "04-multiple-tables.png",
+      "alt": "同じページから検出した2つの表を選び、PDFと比較",
+      "src": "https://github.com/shunsoco-stack/pdf-table-extractor/raw/main/docs/screenshots/04-multiple-tables.png",
+      "naturalWidth": 1440,
+      "naturalHeight": 1272,
+      "renderedWidth": 838,
+      "renderedHeight": 740
+    },
+    {
+      "file": "05-export.png",
+      "alt": "出力形式、ファイル名、複数シート、確認チェックを備えたダウンロード画面",
+      "src": "https://github.com/shunsoco-stack/pdf-table-extractor/raw/main/docs/screenshots/05-export.png",
+      "naturalWidth": 1440,
+      "naturalHeight": 1272,
+      "renderedWidth": 838,
+      "renderedHeight": 740
+    }
+  ]
+}

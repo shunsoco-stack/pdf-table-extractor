@@ -132,7 +132,7 @@ $env:CAPTURE_SCREENSHOTS = '1'
 npm run test:e2e
 ```
 
-スクリーンショット保存モードはHTTPS本番URLでのみ有効です。GitHub Web UIでREADMEの全5枚が表示されることも公開時に確認します。
+スクリーンショット保存モードはHTTPS本番URLでのみ有効です。GitHub Web UIでREADMEの全5枚の正常表示を確認済みです。[画像表示の検証記録](docs/github-readme-verification.json) と再実行用の `node scripts/verify-readme.mjs` を収録しています。
 
 ## デモの再生成
 
@@ -147,3 +147,4 @@ node scripts/generate-demos.mjs
 Next.js App Router / React / TypeScript / PDF.js / ExcelJS / Lucide / Vitest / Playwright / Vercel。Apple Design Skillの指針を取り入れ、即時の操作フィードバック、控えめな階層、Undo、動きを減らす設定、ブラウザ内処理を重視しています。
 
 ソースの秘密情報検査、依存監査、検査の限界は [Secret Scan記録](docs/secret-scan.md) に記載しています。[ポートフォリオ追加用の完全版プロンプト](docs/portfolio-prompt.md) も同梱しています。
+
