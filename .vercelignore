@@ -1,0 +1,11 @@
+.git/
+.next/
+node_modules/
+.cache/
+docs/
+tests/
+test-results/
+playwright-report/
+.env*
+README.md
+tmp/

@@ -1,0 +1,45 @@
+{
+  "name": "pdf-table-extractor",
+  "version": "1.0.0",
+  "private": true,
+  "description": "PDF表データ抽出・CSV変換ツール — ブラウザ内で抽出・確認・編集・出力",
+  "scripts": {
+    "dev": "node scripts/copy-assets.mjs && next dev",
+    "build": "node scripts/copy-assets.mjs && next build",
+    "start": "next start",
+    "lint": "eslint .",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:e2e": "playwright test",
+    "secret-scan": "node scripts/secret-scan.mjs"
+  },
+  "engines": {
+    "node": "24.x"
+  },
+  "dependencies": {
+    "exceljs": "^4.4.0",
+    "lucide-react": "^1.28.0",
+    "next": "^16.3.0",
+    "pdfjs-dist": "^6.2.108",
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8"
+  },
+  "devDependencies": {
+    "@next/swc-wasm-nodejs": "^16.3.5",
+    "@pdf-lib/fontkit": "^1.1.1",
+    "@playwright/test": "^1.61.1",
+    "@types/node": "^26.1.2",
+    "@types/react": "^19.2.18",
+    "@types/react-dom": "^19.2.4",
+    "eslint": "^9.39.5",
+    "eslint-config-next": "^16.3.0",
+    "pdf-lib": "^1.17.1",
+    "typescript": "^5.9.3",
+    "vitest": "^4.1.10"
+  },
+  "overrides": {
+    "exceljs": {
+      "uuid": "11.1.1"
+    }
+  }
+}
