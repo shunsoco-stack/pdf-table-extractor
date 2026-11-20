@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import { LegalFooter } from "@/components/legal-footer";
 export const metadata: Metadata = {
   title: "PDF表データ抽出・CSV変換ツール",
   description:
@@ -12,7 +13,8 @@ export default function RootLayout({
 }: Readonly<{ children: React.ReactNode }>) {
   return (
     <html lang="ja">
-      <body>{children}</body>
+      <body>{children}
+        <LegalFooter /></body>
     </html>
   );
 }

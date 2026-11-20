@@ -328,7 +328,7 @@ export default function Workspace() {
               <br />
               あなたのブラウザ内に。
             </strong>
-            <p>PDF・抽出データをサーバーに送信しません。</p>
+            <p>PDF・抽出データを外部サーバーへ送信することはありません。本番ページ末尾の広告配信（忍者AdMax）は、これらの内容とは無関係です。</p>
           </div>
           <button className="help-link" onClick={() => setHelp(true)}>
             <CircleHelp size={17} /> 使い方・対応するPDF{" "}
@@ -478,7 +478,7 @@ export default function Workspace() {
               </section>
               <div className="upload-note">
                 <LockKeyhole size={14} />
-                <span>ファイルのアップロード送信はありません</span>
+                <span>PDFファイルを外部へアップロード送信することはありません</span>
                 <span className="note-divider">|</span>
                 <span>スキャンPDF・OCRには未対応</span>
               </div>
@@ -1135,7 +1135,7 @@ export default function Workspace() {
           </p>
           <strong>データの扱い</strong>
           <p>
-            PDF・抽出データはサーバーへ送信せず、メモリ内で処理します。ページを閉じる・再読み込みすると編集内容は消えます。アプリの配信とサンプル読み込みには通信が発生します。
+            PDF・抽出データは外部サーバーへ送信せず、メモリ内で処理します。ページを閉じる・再読み込みすると編集内容は消えます。アプリの配信、サンプルの読み込み、および本番ページ末尾の広告配信（忍者AdMax）には通信が発生しますが、PDFや抽出データを広告のために送信することはありません。
           </p>
         </div>
         <button className="button primary" onClick={() => setHelp(false)}>
